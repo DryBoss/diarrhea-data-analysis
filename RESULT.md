@@ -2,6 +2,8 @@
 
 This document presents a detailed evaluation of various machine learning models and hybrid approaches applied to our diarrhea dataset. The models are assessed based on their **accuracy** and **R² scores**, with a focus on both individual and hybrid model performances.
 
+**Notebook link**: [diarrhea_data_analysis.ipynb](https://colab.research.google.com/drive/1_qxn5BFoxvoWPs5UhItPD3PB1arb04dl?usp=drive_link)
+
 ### Note on Hybrid Models
 - **Hybrid RF-GBT**: Combines Random Forest with Gradient Boosting Trees to leverage the strengths of both algorithms.
 - **Hybrid RF-XGB**: Combines Random Forest with XGBoost, aiming to combine the power of decision trees with gradient boosting techniques.
@@ -143,4 +145,4 @@ These lagged variables enhance the models by incorporating past trends, providin
 
 ---
 
-For further details on methodology, feature engineering, and implementation, refer to the accompanying notebook.
+For further details on methodology, feature engineering, and implementation, refer to the [diarrhea_data_analysis.ipynb](https://colab.research.google.com/drive/1_qxn5BFoxvoWPs5UhItPD3PB1arb04dl?usp=drive_link)
